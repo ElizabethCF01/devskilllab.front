@@ -28,6 +28,11 @@ const router = createRouter({
       name: "codebox",
       component: () => import("../views/CodeBox.vue"),
     },
+    {
+      path: "/codeplayground",
+      name: "codeplayground",
+      component: () => import("../views/CodePlayground.vue"),
+    },
   ],
 });
 
