@@ -11,6 +11,7 @@ module.exports = {
         "dark-gray": "#1F1F1F",
         primary: "#2B6BE7",
       },
+
     },
   },
   plugins: [require("flowbite/plugin")],
