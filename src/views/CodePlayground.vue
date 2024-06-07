@@ -3,21 +3,16 @@
         <div class="h-full flex justify-center w-full">
             <div class="w-full grid grid-cols-2 gap-2 mt-20 mb-2">
                 <div class="bg-dark-gray flex flex-col gap-2 p-2">
-                    <prism-editor class="my-editor height-300 border-zinc-800" v-model="htmlCode"
+                    <prism-editor class="my-editor h-1/3 border-zinc-800" v-model="htmlCode"
                         :highlight="highlighterHtml" :line-numbers="true"></prism-editor>
-
-                    <prism-editor class="my-editor height-300 border-zinc-800" v-model="cssCode"
-                        :highlight="highlighterCss" :line-numbers="true"></prism-editor>
-                    <prism-editor class="my-editor height-300 border-zinc-800" v-model="jsCode"
-                        :highlight="highlighterJs" :line-numbers="true"></prism-editor>
-
-
+                    <prism-editor class="my-editor h-1/3 border-zinc-800" v-model="cssCode" :highlight="highlighterCss"
+                        :line-numbers="true"></prism-editor>
+                    <prism-editor class="my-editor h-1/3 border-zinc-800" v-model="jsCode" :highlight="highlighterJs"
+                        :line-numbers="true"></prism-editor>
                 </div>
                 <div class="border border-1 border-zinc-700 flex flex-col transition-all ease-in">
                     <iframe class="ide w-full h-full bg-white  transition-all ease-in" :srcdoc="output"></iframe>
-
                 </div>
-
             </div>
         </div>
     </div>
@@ -106,9 +101,5 @@ watchEffect(() => {
 
 .prism-editor__textarea:focus {
     outline: none;
-}
-
-.height-300 {
-    height: 200px;
 }
 </style>
