@@ -13,10 +13,14 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@types/lodash.debounce": "^4.0.9",
     "axios": "^1.7.2",
     "flowbite": "^2.3.0",
+    "lodash.debounce": "^4.0.8",
     "pinia": "^2.1.7",
+    "prismjs": "^1.29.0",
     "vue": "^3.4.21",
+    "vue-prism-editor": "^2.0.0-alpha.2",
     "vue-router": "^4.3.0",
     "vue3-toastify": "^0.2.1"
   },
@@ -25,6 +29,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.6",
     "@types/node": "^20.12.5",
+    "@types/prismjs": "^1.26.4",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/test-utils": "^2.4.5",
     "@vue/tsconfig": "^0.5.1",
