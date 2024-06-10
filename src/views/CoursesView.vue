@@ -3,7 +3,7 @@
     class="bg-[#1F1F1F] w-full bg-[url('/nasa.jpg')] bg-cover bg-fixed bg-no-repeat h-screen py-10"
   >
     <div class="pt-20 text-center">
-      <h1 class="font-semibold text-white text-4xl my-5">Challenges</h1>
+      <h1 class="font-semibold text-white text-4xl my-5">Retos</h1>
     </div>
     <div>
       <form class="max-w-md mx-auto">
