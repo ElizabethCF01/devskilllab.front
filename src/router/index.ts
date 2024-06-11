@@ -34,7 +34,7 @@ const router = createRouter({
       component: () => import("../views/CodePlayground.vue"),
     },
     {
-      path: "/retoview",
+      path: "/retoview/:id",
       name: "retoview",
       component: () => import("../views/RetoView.vue"),
     },
